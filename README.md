@@ -21,7 +21,17 @@ Check [DATASETS.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/DATASETS.md) 
 Check [MODEL_ZOO.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/MODEL_ZOO.md) for installation instructions.
 Pretrained model needs to be downloaded.
 
+The final structure of data/ are as follows:
+  ```bash
+  data/
+  data/pretrained_model/
+  data/selective_search_data/
+  data/VOC2007/
+  ```
+
+
 # Training
+
 **Train** a FI-WSOD network on VOC2007 (Only support single-gpu training). 
 
   ```bash
