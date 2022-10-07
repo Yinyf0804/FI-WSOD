@@ -19,7 +19,7 @@ Check [DATASETS.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/DATASETS.md) 
 
 # Model Zoo
 Check [MODEL_ZOO.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/MODEL_ZOO.md) for installation instructions.
-Pretrained models need to be downloaded.
+Pretrained model needs to be downloaded.
 
 # Training
 **Train** a FI-WSOD network on VOC2007 (Only support single-gpu training). 
@@ -81,4 +81,4 @@ If you find this code useful for your research, please use the following BibTeX 
 ```
 
 # Acknowledgement
-The codes are based on [PCL]([https://www3.cs.stonybrook.edu/~cvl/docunet.html](https://github.com/ppengtang/pcl.pytorch/tree/0.4.0)). Thanks for the wonderful work!
+The codes are based on [PCL](https://github.com/ppengtang/pcl.pytorch/tree/0.4.0). Thanks for the wonderful work!
