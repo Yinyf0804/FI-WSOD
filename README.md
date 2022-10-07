@@ -31,9 +31,7 @@ Pretrained models need to be downloaded.
   python tools/test_net.py --cfg configs/vgg16_voc2007_fiwsod.yaml \
     --load_ckpt $MODEL_PATH \
     --dataset voc2007test
-  ```
-  (Optional)
-  ```bash
+  # (Optional)
   python tools/reeval.py $TEST_DIR/detections.pkl \
     --dataset voc2007test --cfg configs/vgg16_voc2007_fiwsod.yaml
   ```
