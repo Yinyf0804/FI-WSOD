@@ -1,5 +1,10 @@
 # FI-WSOD: Foreground Information Guided Weakly Supervised Object Detection
 
+
+<p align="left">
+<img src="images/fig_structure.jpg" alt="architecture" width="900px">
+</p>
+
 By Yufei Yin, Jiajun Deng, Wengang Zhou, Li Li, and Houqiang Li.
 
 This is a PyTorch implementation of our TMM paper FI-WSOD.
@@ -31,6 +36,7 @@ Pretrained models need to be downloaded.
   python tools/test_net.py --cfg configs/vgg16_voc2007_fiwsod.yaml \
     --load_ckpt $MODEL_PATH \
     --dataset voc2007test
+    
   # (Optional)
   python tools/reeval.py $TEST_DIR/detections.pkl \
     --dataset voc2007test --cfg configs/vgg16_voc2007_fiwsod.yaml
