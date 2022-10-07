@@ -56,6 +56,5 @@ OICR:
   Bg2_Test: True
   Bg2_Test_MIL: True
   Bg2_Test_Type_BgWeight: 1.0
-# RNG_SEED: 9
 DATA_DIR: "data/"
 OUTPUT_DIR: "output/fiwsod/"
