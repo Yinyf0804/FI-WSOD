@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of FI-WSOD (2022 TMM). [[**PDF**]](https://ieeexplore.ieee.org/document/9854139) 
 
-This implementation can achieve the performance of **56.4% mAP** and  **72.4%** CorLoc on VOC2007 dataset.
+This implementation can achieve the performance of **56.4% mAP** and  **72.4% CorLoc** on VOC2007 dataset.
 
 
 > **FI-WSOD: Foreground Information Guided Weakly Supervised Object Detection  (IEEE Transactions on Multimedia)** \
