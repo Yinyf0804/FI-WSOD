@@ -15,7 +15,7 @@ Check [MODEL_ZOO.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/MODEL_ZOO.md
 Pretrained models need to be downloaded.
 
 # Training
-**Train** a FI-WSOD network on VOC2007. (Only support single-gpu training.)
+**Train** a FI-WSOD network on VOC2007 (Only support single-gpu training). 
 
   ```bash
   CUDA_VISIBLE_DEVICES=0 python tools/train_net_step.py --dataset voc2007 \
@@ -23,7 +23,7 @@ Pretrained models need to be downloaded.
   ```
 
 # Inference
- **Test** a FI-WSOD network on VOC2007. (Only support single-gpu testing.)
+ **Test** a FI-WSOD network on VOC2007 (Only support single-gpu testing). 
  
     
  ### Test on test split with mAP:
@@ -31,6 +31,11 @@ Pretrained models need to be downloaded.
   python tools/test_net.py --cfg configs/vgg16_voc2007_fiwsod.yaml \
     --load_ckpt $MODEL_PATH \
     --dataset voc2007test
+  ```
+  (Optional)
+  ```bash
+  python tools/reeval.py $TEST_DIR/detections.pkl \
+    --dataset voc2007test --cfg configs/vgg16_voc2007_fiwsod.yaml
   ```
     
  ### Test on trainval split with CorLoc:
@@ -40,7 +45,8 @@ Pretrained models need to be downloaded.
     --dataset voc2007trainval
 
   python tools/reeval.py $TEST_DIR/discovery.pkl \
-    --dataset voc2007trainval --cfg configs/vgg16_voc2007_fiwsod.yaml
+    --dataset voc2007trainval --cfg configs/vgg16_voc2007_fiwsod.yaml \
+    --style corloc
   ```
   
   ### Default directory (models & test results):
