@@ -34,7 +34,7 @@ The final structure of data/ are as follows:
 
 # Training
 
-**Train** a FI-WSOD network on VOC2007 (Only support single-gpu training). 
+**Train** an FI-WSOD network on VOC2007 (Only support single-gpu training). 
 
   ```bash
   CUDA_VISIBLE_DEVICES=0 python tools/train_net_step.py --dataset voc2007 \
@@ -42,7 +42,7 @@ The final structure of data/ are as follows:
   ```
 
 # Inference
- **Test** a FI-WSOD network on VOC2007 (Only support single-gpu testing). 
+ **Test** an FI-WSOD network on VOC2007 (Only support single-gpu testing). 
  
     
  ### Test on test split with mAP:
