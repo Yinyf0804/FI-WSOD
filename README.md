@@ -1,13 +1,15 @@
 # FI-WSOD: Foreground Information Guided Weakly Supervised Object Detection
 
+This is the official PyTorch implementation of FI-WSOD (2022 TMM). [[**PDF**]](https://ieeexplore.ieee.org/document/9854139)
 
-<p align="left">
-<img src="images/fig_structure.jpg" alt="architecture" width="900px">
-</p>
 
-By Yufei Yin, Jiajun Deng, Wengang Zhou, Li Li, and Houqiang Li.
+> **FI-WSOD: Foreground Information Guided Weakly Supervised Object Detection  (IEEE Transactions on Multimedia)** \
+> Yufei Yin, Jiajun Deng, Wengang Zhou, Li Li, and Houqiang Li.
 
-This is a PyTorch implementation of our TMM paper FI-WSOD.
+
+![1](images/fig_show.png)
+
+
 
 # Installation
 Check [INSTALL.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/INSTALL.md) for installation instructions.
