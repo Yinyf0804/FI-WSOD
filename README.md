@@ -17,10 +17,10 @@ This implementation can achieve the performance of **56.4% mAP** and  **72.4% Co
 Check [INSTALL.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/INSTALL.md) for installation instructions.
 
 # Datasets
-Check [DATASETS.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/DATASETS.md) for installation instructions.
+Check [DATASETS.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/DATASETS.md) for dataset preparation.
 
 # Model Zoo
-Check [MODEL_ZOO.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/MODEL_ZOO.md) for installation instructions.
+Check [MODEL_ZOO.md](https://github.com/Yinyf0804/FI-WSOD/blob/main/MODEL_ZOO.md) for pretrained models.
 Pretrained model needs to be downloaded.
 
 The final structure of data/ are as follows:
