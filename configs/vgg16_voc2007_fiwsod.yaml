@@ -4,7 +4,7 @@ MODEL:
   METHOD: oicr_fiwsod
 NUM_GPUS: 2
 VGG:
-  IMAGENET_PRETRAINED_WEIGHTS: '/gdata1/yinyf/pcl_others/pretrained_model/vgg16_caffe.pth'
+  IMAGENET_PRETRAINED_WEIGHTS: 'data/pretrained_model/vgg16_caffe.pth'
 SOLVER:
   WEIGHT_DECAY: 0.0005
   LR_POLICY: steps_with_decay
@@ -23,16 +23,14 @@ TRAIN:
   MAX_SIZE: 2000
   IMS_PER_BATCH: 1
   BATCH_SIZE_PER_IM: 4096
-  PROPOSAL_FILES: ('/gdata1/yinyf/pcl_others/selective_search_data/voc_2007_trainval.pkl',)
-  # PROPOSAL_FILES: ('/ghome/wangmr/pcl/data/mcg/voc_2007_trainval.pkl',)
+  PROPOSAL_FILES: ('data/selective_search_data/voc_2007_trainval.pkl',)
   BG_THRESH: 0.1
   SNAPSHOT_ITERS: 100000
 TEST:
   SCALE: 480
   MAX_SIZE: 2000
   NMS: 0.3
-  PROPOSAL_FILES: ('/gdata1/yinyf/pcl_others/selective_search_data',)
-  # PROPOSAL_FILES: ('/ghome/wangmr/pcl/data/mcg',) 
+  PROPOSAL_FILES: ('data/selective_search_data',)
   BBOX_AUG:
     ENABLED: True
     H_FLIP: True
@@ -59,6 +57,5 @@ OICR:
   Bg2_Test_MIL: True
   Bg2_Test_Type_BgWeight: 1.0
 # RNG_SEED: 9
-DATA_DIR: "/gdata/yinyf"
-CACHE_PATH: "/ghome/wangmr/wsddn/data"
-OUTPUT_DIR: "/gdata1/wangmr/wsddn/output/oicr_bg2"
+DATA_DIR: "data/"
+OUTPUT_DIR: "output/fiwsod/"
