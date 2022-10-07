@@ -65,3 +65,20 @@ Pretrained models need to be downloaded.
   $TEST_DIR = $OUTPUT_DIR/$CONFIG_NAME/test/$STEP
   ```
   You can change them in [configs/vgg16_voc2007_fiwsod.yaml](https://github.com/Yinyf0804/FI-WSOD/blob/main/configs/vgg16_voc2007_fiwsod.yaml)
+  
+# Citation
+
+If you find this code useful for your research, please use the following BibTeX entry.
+
+```
+@article{yin2022fi,
+  title={FI-WSOD: Foreground Information Guided Weakly Supervised Object Detection},
+  author={Yin, Yufei and Deng, Jiajun and Zhou, Wengang and Li, Li and Li, Houqiang},
+  journal={IEEE Transactions on Multimedia},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
+# Acknowledgement
+The codes are based on [PCL]([https://www3.cs.stonybrook.edu/~cvl/docunet.html](https://github.com/ppengtang/pcl.pytorch/tree/0.4.0)). Thanks for the wonderful work!
